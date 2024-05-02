@@ -1,0 +1,15 @@
+.albumliste{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+.titre-decouverte{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(48, 125, 82);
+    padding: 15px;
+    margin-top: 50px;
+}
