@@ -1,3 +1,4 @@
+import Footer from "../Layout/Footer";
 import Menu from "../Layout/Menu"
 import './Contact.css'
 import React, { useState } from 'react';
@@ -26,6 +27,7 @@ function Contact() {
     };
 
     return (
+        <div>
         <div className="div-contact">
         <Menu />
         <div className="contact-container">
@@ -78,6 +80,9 @@ function Contact() {
                 <button type="submit">Envoyer</button>
             </form>
         </div>
+        
+        </div>
+        <Footer />
         </div>
     );
 };

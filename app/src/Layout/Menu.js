@@ -27,12 +27,9 @@ function Menu(){
             <h3 className='titre-application'>GLAMPING</h3>
             <img className='logo2' src={Logo}></img>
         <div className='div-menu'>
-            <p className='element-menu'onClick={redirecthome} >Home</p>
-            <p className='element-menu'onClick={redirectannonce}>Annonces</p>
-            <p className='element-menu'>Portefolio</p>
-            <p className='element-menu' onClick={redirectcontact}>Contact</p>
-            <p className='element-menu' >Connexion</p>
-            
+            <p className='element-menu'onClick={redirecthome} >Accueil</p>
+            <p className='element-menu'onClick={redirectannonce}>Nos Annonces</p>
+            <p className='element-menu' onClick={redirectcontact}>Contact</p>            
         </div>
         </div>
     )

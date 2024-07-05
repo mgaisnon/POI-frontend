@@ -1,6 +1,7 @@
 import Menu from "../Layout/Menu"
 import './Home.css'
 import CardAnnonce from '../Components/Annonce/Annonce.js'
+import Footer from "../Layout/Footer.js"
 function Annonce() {
     
     return(
@@ -24,6 +25,7 @@ function Annonce() {
              <CardAnnonce />   
    
             </div>
+            <Footer />
             </div>
 
             
